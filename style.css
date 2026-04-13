@@ -13,14 +13,16 @@ body{
     background-color:rgb(8, 180, 146) ;
     display: flex;
     justify-content: space-around;
-    height: 90px;
+    height: 70px;
     align-items: center;
+    position: fixed;
+    
 
 }
 /* call the menu in the css */
 .menu{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     list-style: none;
     background-color: rgb(8, 180, 145);
@@ -169,3 +171,31 @@ padding: 20px;
     border-radius: 10px;
 }
 /* end pf the about me section */
+/* this is the project section */
+.project{
+   display: flex;
+ flex-direction: column;
+   gap: 50px;
+   justify-content: center;
+   width: 90%;
+   border: 2px solid beige;
+   margin: 0 auto ;
+}
+.my-project{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+}
+.my-project img{
+    width: 200px;
+    height: 280px;
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.projects{
+
+}
